@@ -1,0 +1,41 @@
+<html>
+   
+   <head>
+      <title>Add Contact</title>
+      
+      </head>
+      
+      <form action = "addinfo.php" method = "post">
+                  <h3>Representing Countries  :</h3>
+                  <select name = "country">
+                  <option  name = "NULL" value = "Null"/>-------</option>
+                  <option name="HK" value = "HongKong"/>Hong Kong</option>
+                   <option name = "MU" value = "Macau"/>Macau</option>
+                   <option  name = "CN" value = "China"/>Mainland China</option>
+                   <option  name = "TW" value = "Taiwan"/>Taiwan</option>
+                   <option  name = "JP" value = "Japan"/>Japan</option>
+                   <option  name = "KR" value = "Korean"/>Korean</option>
+                   <option  name = "MA" value = "Malaysia"/>Malaysia</option>
+                   <option  name = "SG" value = "Singapore"/>Singapore</option>
+                   <option  name = "THAI" value = "Thailand"/>Thailand</option>
+                   </select><br/>
+                   <label>Others:</label><input type = "text" name = "other"/><br/>
+                   <input type="hidden" name="asian" value=null>
+                  <input type = "checkbox" name = "asian" value = "asian"/>Asian Cup</option><br/><br/>
+                  
+                  <h3>Contact Info</h3>
+                  <label>Name	(Eng): </label><input type = "text" name = "NameEng"/><br/>
+                  <label>Name	(Chi): </label><input type = "text" name = "NameChi"/><br/>
+                  <label>Name of Dance School (Eng): </label><input type = "text" name = "SchoolNameEng"/><br/>
+                  <label>Name of Dance School (Chi): </label><input type = "text" name = "SchoolNameChi"/><br/>
+                  <label>Name of Principal(Eng): </label><input type = "text" name = "PrincipalEng"/><br/>
+                  <label>Name of Principal(Chi): </label><input type = "text" name = "PrincipalChi"/><br/>
+                  <label>Address of Dance School(Eng): </label><input type = "text" name = "AddressEng"/><br/>
+                  <label>Address of Dance School(Chi): </label><input type = "text" name = "AddressChi"/><br/>
+                  <label>Email Address: </label><input type = "email" name = "email"/><br/>
+                  <label>Tel: </label><input type = "tel" name = "phone"/><br/><br/>
+                   <input type = "submit" value = "Add Contact"/><br />
+               </form>
+               
+               <a href = "welcome.php">Back to Home Page</a>
+               </html>
